@@ -962,9 +962,9 @@ BaseType_t TLS_Connect( void * pvContext )
                                     NULL,
                                     0 );
 
-   printf("=========================mbedtls_ctr_drbg_seed=====================\n");
+    printf("=========================mbedtls_ctr_drbg_seed=====================\n");
 
-                                    /* Decode the root certificate: either the default or the override. */
+    /* Decode the root certificate: either the default or the override. */
     if( NULL != pxCtx->pcServerCertificate )
     {
         //cipher_flag = SET_SERVERCERT;

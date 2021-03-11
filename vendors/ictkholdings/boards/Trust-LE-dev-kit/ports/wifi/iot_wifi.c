@@ -1818,6 +1818,15 @@ WIFIReturnCode_t WIFI_GetIPInfo( WIFIIPConfiguration_t * pxIPInfo )
     }
 }
 
+/*-----------------------------------------------------------*/
+
+WIFIReturnCode_t WIFI_RegisterEvent( WIFIEventType_t xEvent, WIFIEventHandler_t xHandler  )
+{
+    /** Needs to implement dispatching network state change events **/
+    return eWiFiNotSupported;
+}
+
+/*-----------------------------------------------------------*/
 
 /** Needs to implement dispatching network state change events **/
 /*

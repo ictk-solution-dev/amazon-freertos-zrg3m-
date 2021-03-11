@@ -94,4 +94,7 @@
  */
 #define wificonfigACCESS_POINT_SECURITY       ( eWiFiSecurityWPA2 )
 
+#define wificonfigMAX_WEPKEYS                 ( 1 )  
+#define wificonfigMAX_WEPKEY_LEN              ( 63 )
+
 #endif /* _AWS_WIFI_CONFIG_H_ */

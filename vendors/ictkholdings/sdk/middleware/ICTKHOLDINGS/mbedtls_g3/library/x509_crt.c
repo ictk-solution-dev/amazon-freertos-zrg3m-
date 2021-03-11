@@ -2300,9 +2300,10 @@ static int x509_crt_verify_chain(
     parent_is_trusted = 0;
     child_is_trusted = 0;
 
-    while( 1 ) {
+    while( 1 ) 
+    {
 #ifdef G3_PKCS11
-    ictktls_set_puf_priv_index(CLIENT_SIGN_KEYINDEX);       //newnew
+        ictktls_set_puf_priv_index(CLIENT_SIGN_KEYINDEX);
 #endif      
         /* Add certificate to the verification chain */
         cur = &ver_chain->items[ver_chain->len];

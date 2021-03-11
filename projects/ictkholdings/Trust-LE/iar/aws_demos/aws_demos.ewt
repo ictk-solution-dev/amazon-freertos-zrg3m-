@@ -2318,50 +2318,14 @@
         <group>
             <name>mediatek_code</name>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\bt_common.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\bt_hci_log_uart.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\bt_init.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\ept_eint_var.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\ept_gpio_var.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\startup_mt7687.s</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\sys_init.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\system_mt7687.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\wifi_lwip_helper.c</name>
+                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\mediatek_code\source\mediatek_app.a</name>
             </file>
         </group>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\ictkholdings_code\source\atci_main.c</name>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\main.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\ictkholdings_code\source\network_default_config.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\ictkholdings_code\source\nvdm_config.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\ictkholdings_code\source\test_print.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\boards\Trust-LE-dev-kit\aws_demos\application_code\ictkholdings_code\source\wifi_nvdm_config.c</name>
         </file>
     </group>
     <group>
@@ -2379,145 +2343,73 @@
     <group>
         <name>connsys</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\connsys_bus.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\connsys_driver.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\connsys_log.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\connsys_util.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\context_dump.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\mt7687_ram_release_flash.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\uart_slim_version.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\connsys\src\connsys.a</name>
         </file>
     </group>
     <group>
         <name>demos</name>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\aws_demo.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\aws_demo_version.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\dev_mode_key_provisioning\src\aws_dev_mode_key_provisioning.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\network_manager\aws_iot_network_manager.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\iot_demo_freertos.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\mqtt\iot_demo_mqtt.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\iot_demo_runner.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\common\taskpool\iot_taskpool.c</name>
-        </file>
+        <group>
+            <name>common</name>
+            <group>
+                <name>mqtt_demo_helpers</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\demos\common\mqtt_demo_helpers\mqtt_demo_helpers.c</name>
+                </file>
+            </group>
+            <group>
+                <name>pkcs11_helpers</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\demos\common\pkcs11_helpers\pkcs11_helpers.c</name>
+                </file>
+            </group>
+        </group>
+        <group>
+            <name>coreMQTT</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\coreMQTT\mqtt_demo_connection_sharing.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\coreMQTT\mqtt_demo_mutual_auth.c</name>
+            </file>
+        </group>
+        <group>
+            <name>demo_runner</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\aws_demo.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\aws_demo_network_addr.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\aws_demo_version.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\iot_demo_freertos.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\demo_runner\iot_demo_runner.c</name>
+            </file>
+        </group>
+        <group>
+            <name>dev_mode_key_provisioning</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\dev_mode_key_provisioning\src\aws_dev_mode_key_provisioning.c</name>
+            </file>
+        </group>
+        <group>
+            <name>network_manager</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\network_manager\aws_iot_demo_network.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\demos\network_manager\aws_iot_network_manager.c</name>
+            </file>
+        </group>
     </group>
     <group>
         <name>hal_drivers</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_adc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_aes.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_cache.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_cache_internal.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_des.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_dfs.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src_core\hal_efuse.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_eint.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_file.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_flash.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_gdma.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_gpio.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_gpt.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_i2c_master.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_i2s.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_irtx.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_log.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_md5.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_misc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_nvic.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_nvic_internal.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_pwm.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_rtc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_sha.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src_core\hal_sleep_driver.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src_core\hal_sleep_manager.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_spi_master.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_spi_slave.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_uart.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_wdt.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\hal_driver.a</name>
         </file>
     </group>
     <group>
@@ -2550,22 +2442,16 @@
     <group>
         <name>kernel</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\src\context_info_save.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\event_groups.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\src\exception_handler.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\portable\MemMang\heap_4.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\list.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\src\kernel_service.a</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\src\memory_regions.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\list.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\portable\IAR\ARM_CM4F\port.c</name>
@@ -2580,7 +2466,7 @@
             <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\queue.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\syslog\src\syslog.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\syslog\src\syslog.a</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\tasks.c</name>
@@ -2589,14 +2475,17 @@
             <name>$PROJ_DIR$\..\..\..\..\..\freertos_kernel\timers.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\service\src\toi.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\kernel\extend\src\wrap_heap.c</name>
         </file>
     </group>
     <group>
         <name>libraries</name>
+        <group>
+            <name>backoff_algorithm</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\abstractions\backoff_algorithm\source\backoff_algorithm.c</name>
+            </file>
+        </group>
         <group>
             <name>json</name>
             <file>
@@ -2606,22 +2495,40 @@
         <group>
             <name>logging</name>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\common\logging\iot_logging.c</name>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\logging\iot_logging.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\common\logging\iot_logging_task_dynamic_buffers.c</name>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\logging\iot_logging_task_dynamic_buffers.c</name>
             </file>
         </group>
         <group>
             <name>mqtt</name>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_ble_mqtt_serialize.c</name>
-            </file>
+            <group>
+                <name>coreMQTT</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\libraries\coreMQTT\source\core_mqtt.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\libraries\coreMQTT\source\core_mqtt_serializer.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\libraries\coreMQTT\source\core_mqtt_state.c</name>
+                </file>
+            </group>
             <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_agent.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_api.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_context_connection.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_managed_function_wrapper.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_mutex_wrapper.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_network.c</name>
@@ -2630,7 +2537,10 @@
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_operation.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_serialize.c</name>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_publish_duplicates.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_serializer_deserializer_wrapper.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_static_memory.c</name>
@@ -2639,8 +2549,20 @@
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_subscription.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_subscription_container.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\c_sdk\standard\mqtt\src\iot_mqtt_validate.c</name>
             </file>
+        </group>
+        <group>
+            <name>pkcs11</name>
+            <group>
+                <name>corePKCS11</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\..\..\20210303_IDT_TEST\Trust-LE\libraries\abstractions\pkcs11\corePKCS11\source\core_pki_utils.c</name>
+                </file>
+            </group>
         </group>
         <group>
             <name>platform</name>
@@ -2684,10 +2606,19 @@
         <group>
             <name>system</name>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\libraries\freertos_plus\standard\utils\src\iot_pki_utils.c</name>
-            </file>
-            <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\libraries\freertos_plus\standard\utils\src\iot_system_init.c</name>
+            </file>
+        </group>
+        <group>
+            <name>taskpool</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\aws_FreeRTOS_\kernel\amazon-freertos\libraries\c_sdk\standard\common\taskpool\iot_taskpool.c</name>
+            </file>
+        </group>
+        <group>
+            <name>transport</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\libraries\abstractions\transport\secure_sockets\transport_secure_sockets.c</name>
             </file>
         </group>
     </group>
@@ -3265,40 +3196,13 @@
             <group>
                 <name>atci</name>
                 <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\atci\at_command\at_command.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\atci\src\atci_adapter.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\atci\src\atci_handler.c</name>
-                </file>
-            </group>
-            <group>
-                <name>ble</name>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\bluetooth\src\bt_debug.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\bluetooth\src\bt_hci_log.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\bluetooth\src\bt_os_layer_api.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\bluetooth\src\bt_task.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\prebuilt\middleware\MTK\bluetooth\lib\libble_iar.a</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\prebuilt\middleware\MTK\bluetooth\lib\libbtdriver_7697_iar.a</name>
+                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\atci\src\atci.a</name>
                 </file>
             </group>
             <group>
                 <name>dhcpd</name>
                 <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\dhcpd\src\dhcpd.c</name>
+                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\dhcpd\src\dhcpd.a</name>
                 </file>
             </group>
             <group>
@@ -3307,7 +3211,7 @@
                     <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\prebuilt\middleware\MTK\nvdm\lib\libnvdm_CM4_IAR.a</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\nvdm\src\nvdm_port.c</name>
+                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\nvdm\src\nvdm_port.a</name>
                 </file>
             </group>
         </group>
@@ -3315,115 +3219,7 @@
     <group>
         <name>mt7687</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\board\mt76x7_hdk\external_flash\src\bsp_flash_config.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\board\mt76x7_hdk\ept\src\bsp_gpio_ept_config.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\cos_api.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\dma.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\flash_sfc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\gpt.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_gpc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_gpio_7687.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_I2C.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_i2s_internal.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_irrx.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_lp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_pcnt.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_pdma_internal.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_pinmux.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_spim.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_sys.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_trng.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\hal_uid.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\i2c.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\board\mt76x7_hdk\util\src\io_def.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\ir_tx.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\low_hal_gpio.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\low_hal_irrx.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\low_hal_irtx.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\low_hal_pwm.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\low_hal_rtc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\low_hal_wdt.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\nvic.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\pinmux.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\pwm.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\sfc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\spi_flash.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\spim.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\timer.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\top.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\uart.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\driver\chip\mt7687\src\common\mt7687.a</name>
         </file>
     </group>
     <group>
@@ -3471,22 +3267,13 @@
     <group>
         <name>smtcn</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\smtcn\src\bsmtcn_ops.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\prebuilt\middleware\MTK\smtcn\lib\libbcsmtcn_CM4_IAR.a</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\prebuilt\middleware\MTK\smtcn\lib\libmcsmtcn_CM4_IAR.a</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\smtcn\src\ops_config.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\smtcn\src\smt_api.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\smtcn\src\smt_conn.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\smtcn\src\smtcn.a</name>
         </file>
     </group>
     <group>
@@ -3496,56 +3283,17 @@
             <group>
                 <name>init</name>
                 <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\init\wifi_default_config.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\init\wifi_init.c</name>
+                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\init\wifi_init.a</name>
                 </file>
             </group>
             <group>
                 <name>wifi_os_ext</name>
                 <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_os_ext\os_util.c</name>
-                </file>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_os_ext\os_utils.c</name>
+                    <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_os_ext\wifi_os_ext.a</name>
                 </file>
             </group>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\get_profile_string.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\inband_queue_option.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\misc.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\single_rate_test.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_ant_div.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_bwcs_porting.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_cm4_scan.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_config_free.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_os_api.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_profile.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_repeater.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_wps.c</name>
+                <name>$PROJ_DIR$\..\..\..\..\..\vendors\ictkholdings\sdk\middleware\MTK\wifi_service\combo\src\wifi_combo.a</name>
             </file>
         </group>
         <group>

@@ -69,7 +69,7 @@
 /*              G3_CONFIG      */
 //------------------------------------------------------------------------------
 //#define ICTK_G3_I2C_DMA
-//#define G3_SEMAPHORE
+#define G3_SEMAPHORE
 #define G3_PKCS11 
 #define G3_MAX_CERT_SIZE                    ( 3000 )
 
@@ -85,7 +85,7 @@
 //------------------------------------------------------------------------------
 /*              TEST_CONFIG      */
 //------------------------------------------------------------------------------
-#undef ICTK_TLS_FOR_AWSTEST    //for Test projecy...
+#define ICTK_TLS_FOR_AWSTEST    //for Test projecy...
 #define ICTK_TLS_FOR_DEMOTEST   //for Demo project...
-
+#define ipconfigHAS_INLINE_FUNCTIONS    0
 #endif /* __GLOBAL_H__ */

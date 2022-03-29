@@ -1,0 +1,13 @@
+# Ignore uncrustify backups
+
+/build*/
+/projects/ictkholdings/Trust-LE/iar/aws_demos/Debug
+/projects/ictkholdings/Trust-LE/iar/aws_demos/settings
+
+/projects/ictkholdings/Trust-LE/iar/aws_tests/Debug
+/projects/ictkholdings/Trust-LE/iar/aws_tests/settings
+/projects/ictkholdings/Trust-LE/iar/aws_tests/BuildLog.txt
+
+/projects/ictkholdings/Trust-LE/iar/aws_iots/Debug
+/projects/ictkholdings/Trust-LE/iar/aws_iots/settings
+/projects/ictkholdings/Trust-LE/iar/aws_iots/BuildLog.txt
